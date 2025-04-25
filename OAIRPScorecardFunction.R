@@ -1,5 +1,5 @@
 
-setwd("Q:/Institutional Research/IR GA/2024-2025 McMahan/Scorercard/OIR Project")
+setwd("")
 #### College API Demo Sheet OAIRP ####
 ## The goal of this document is to use the college scorecard API to retrieve  
 ## select data from all universities within Ohio, Indiana and Kentucky.
@@ -29,7 +29,7 @@ ScoreCend <- "https://api.data.gov/ed/collegescorecard/v1/schools.json?"
 ## Users can apply for a key at https://collegescorecard.ed.gov/data/documentation/
 
 # Defining the API key as a parameter
-api_key <- "api_key=tUBdtcvB8H9bnhMIerGIYHQn6zylhKt0OkkE2Dnu"
+api_key <- "api_key="
 
 
 ### Defining Field Parameters ###
@@ -153,7 +153,7 @@ scorecard_df <-
 # When requesting data, import your API Key, the filter on University Name and then 
 # the States your are looking to request
 
-triState_universities <- scorecard_df("0i4XYAbiSGcbswWXh9HMW6zpnZh6YMELoG9ZfBcK","university","OH,KY,IN")
+triState_universities <- scorecard_df("your_API_KEY","university","OH,KY,IN")
 
 
 ## Cleaning and preparing the requested data for use
