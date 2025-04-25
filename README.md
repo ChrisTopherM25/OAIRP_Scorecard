@@ -6,3 +6,6 @@ to compare itself against its peers and institutions in the tri-state area (Indi
 the areas of enrollment and completions; tuition costs and student earnings; test scores and student acceptance 
 and retention; and demographics. This session will be presented through the use of the R programming language for 
 cleaning and organization of the data then through Tableau to model the results.
+
+More info on this process can be found at:
+https://collegescorecard.ed.gov/data/api/
